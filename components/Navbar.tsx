@@ -1,24 +1,25 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
-type Props = {}
+type Props = {};
 
 function Navbar({}: Props) {
   return (
-<nav>
-        <Link href="/">
-          <a>Home</a>
-        </Link>{' '}
-        |{' '}
-        <Link href="/about">
-          <a>About</a>
-        </Link>{' '}
-        |{' '}
-        <Link href="/projects">
-          <a>Projects</a>
-        </Link>{' '}
-        | <a href="/contact">Contact</a>
-      </nav>  )
+    <nav>
+      <Link href="/">
+        <a>Home</a>
+      </Link>{" "}
+      |{" "}
+      <Link href="/about">
+        <a>About</a>
+      </Link>{" "}
+      |{" "}
+      <Link href="/projects">
+        <a>Projects</a>
+      </Link>{" "}
+      | <a href="/contact">Contact</a>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;

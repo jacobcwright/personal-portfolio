@@ -1,11 +1,11 @@
-import React from 'react'
+import Link from "next/link";
+import React from "react";
+import Layout from "../components/Layout";
 
-type Props = {}
+type Props = {};
 
 function Contact({}: Props) {
-  return (
-    <div>Contact Page</div>
-  )
+  return <Layout title="Contact"></Layout>;
 }
 
-export default Contact
+export default Contact;

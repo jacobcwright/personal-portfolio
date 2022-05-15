@@ -1,10 +1,6 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Link from "next/link";
+import Layout from "../components/Layout";
 
-const Home = () => (
-  <Layout title="Jacob Wright">
-    <h1>Hello, I'm Jacob! 👋</h1>
-  </Layout>
-)
+const Home = () => <Layout title="About"></Layout>;
 
-export default Home
+export default Home;

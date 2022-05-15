@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/Layout";
 
-type Props = {}
+type Props = {};
 
 function Projects({}: Props) {
-  return (
-    <div>projects page</div>
-  )
+  return <Layout title="Projects"></Layout>;
 }
 
-export default Projects
+export default Projects;

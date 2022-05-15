@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 function Footer({}: Props) {
   return (
-<footer>
+    <footer>
       <hr />
       <span>I'm here to stay (Footer)</span>
-    </footer>  )
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
