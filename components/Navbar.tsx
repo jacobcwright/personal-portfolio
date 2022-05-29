@@ -1,15 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import { HiMenu } from "react-icons/Hi";
 
 function Navbar() {
   return (
-    <header>
-      {/* "flex flex-col items-center justify-between bg-gray-500 p-4 shadow-md w-full h-16 fixed top-0 z-50 */}
-      <div className="flex flex-row items-center justify-between bg-gray-500 p-4 shadow-md w-full h-16 fixed top-0 z-50">
+    <header className="py-6">
+      <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
         <Link href="/">
-          <h1>Jacob Wright</h1>
+          <h2 className="text-xl">Jacob Wright</h2>
         </Link>
-        <div className="flex flex-row w-1/2 justify-between">
+        <div className="hidden md:flex space-x-12 items-center text-lg">
           <Link href="/">
             <a>Home</a>
           </Link>
@@ -20,8 +20,11 @@ function Navbar() {
             <a>Projects</a>
           </Link>
           <a href="/contact">
-            <button>Contact</button>
+            <button className="px-6 py-2 bg-blue-500 font-bold">Contact</button>
           </a>
+        </div>
+        <div className="md:hidden">
+          <HiMenu className="w-full h-6" />
         </div>
       </div>
     </header>
