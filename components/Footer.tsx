@@ -1,12 +1,10 @@
 import React from "react";
 
-type Props = {};
-
-function Footer({}: Props) {
+function Footer() {
   return (
     <footer>
       <hr />
-      <span>I'm here to stay (Footer)</span>
+      <span>Im here to stay (Footer)</span>
     </footer>
   );
 }
