@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { HiOutlineEye } from "react-icons/Hi";
-import Pfp from "../public/img/baki.png";
+import Pfp from "../public/img/block.gif";
 
 function Hero() {
   return (
@@ -14,7 +14,7 @@ function Hero() {
               href="/"
               className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
-              <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+              <span className="bg-blue-500 px-2 py-1 rounded-md ml-10 opacity-0 text-white">
                 Home
               </span>
             </a>
@@ -22,7 +22,7 @@ function Hero() {
               href="/about"
               className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
-              <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+              <span className="bg-blue-500 px-2 py-1 rounded-md ml-10 opacity-0 text-white">
                 About
               </span>
             </a>
@@ -30,7 +30,7 @@ function Hero() {
               href="/projects"
               className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
-              <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+              <span className="bg-blue-500 px-2 py-1 rounded-md ml-10 opacity-0 text-white">
                 Projects
               </span>
             </a>
@@ -38,7 +38,7 @@ function Hero() {
               href="/contact"
               className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
-              <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
+              <span className="bg-blue-500 px-2 py-1 rounded-md ml-10 opacity-0 text-white">
                 Contact
               </span>
             </a>
@@ -46,12 +46,11 @@ function Hero() {
         </nav>
 
         <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
-          <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
-            Call to action
-            <br /> here
+          <h1 className="text-white font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
+            Welcome!
           </h1>
           <div className="w-full flex justify-center md:justify-start">
-            <button className="px-8 py-2 bg-orange-500 text-white font-bold mt-12 flex items-center space-x-3 max-h-12">
+            <button className="px-8 py-2 bg-blue-500 text-white font-bold mt-12 flex items-center space-x-3 max-h-12">
               <div>
                 <HiOutlineEye className="w-8 h-8" />
               </div>
