@@ -5,7 +5,7 @@ import { HiMenu } from "react-icons/Hi";
 function Navbar() {
   return (
     <header className="py-6">
-      <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+      <div className="text-white container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
         <Link href="/">
           <h2 className="text-xl">Jacob Wright</h2>
         </Link>

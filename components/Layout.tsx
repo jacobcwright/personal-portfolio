@@ -18,7 +18,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
     </Head>
     <Navbar />
     {children}
-    <Footer />
+    {/* <Footer /> */}
   </>
 );
 
