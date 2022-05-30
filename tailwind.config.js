@@ -5,12 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // colors: {
-        
-      // },
-      // fontFamily: {
-
-      // }
+      screens: {
+        'xs': '345px',
+      }
     },
   },
   plugins: [],

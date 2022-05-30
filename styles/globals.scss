@@ -5,3 +5,67 @@
 body{
     @apply pb-12
 }
+
+html, body {
+    scroll-behavior: smooth;
+    background: rgb(111, 111, 111);
+}
+
+.left-50 {
+    left: 50%;
+}
+
+.right-50{
+    right: 50%;
+}
+
+.top-50{
+    top: 50%;
+}
+
+.-z-10 {
+    z-index: -1;
+}
+
+.secondary-title{
+    @apply text-3xl font-bold;
+}
+
+.secondary-title::before{
+    content: "";
+    @apply block w-12 h-2 bg-orange-400 rounded-full mb-1;
+}
+
+.section-paragraph{
+    @apply bg-orange-400 my-6 w-full max-w-3xl;
+}
+
+.badge{
+    @apply px-4 py-2 text-sm rounded bg-orange-400;
+}
+
+[id]{
+    scroll-margin-top: 100px;
+}
+
+.left-percentage{
+    left: 5%;
+}
+
+.h-screen-partial{
+    height: 80vh;
+}
+
+.nav-dot{
+    transition: background 200ms, border-color 200ms;
+    color: aqua;
+}
+
+.selected-circle{
+    @apply bg-orange-400 border-green-500;
+}
+
+.nav-dot:hover span {
+    opacity: 1;
+}
+
