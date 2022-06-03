@@ -11,7 +11,7 @@ function Hero() {
         <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage md:block hidden">
           <div className="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
             <a
-              href="/"
+              href="#"
               className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body hover:scale-125 transition-all duration-200"
             >
               <span className="bg-blue-500 px-2 py-1 rounded-md ml-10 opacity-0 text-white">
@@ -19,7 +19,7 @@ function Hero() {
               </span>
             </a>
             <a
-              href="/about"
+              href="#about"
               className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body hover:scale-125 transition-all duration-200"
             >
               <span className="bg-blue-500 px-2 py-1 rounded-md ml-10 opacity-0 text-white">
@@ -27,7 +27,7 @@ function Hero() {
               </span>
             </a>
             <a
-              href="/projects"
+              href="#projects"
               className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body hover:scale-125 transition-all duration-200"
             >
               <span className="bg-blue-500 px-2 py-1 rounded-md ml-10 opacity-0 text-white">
@@ -35,7 +35,7 @@ function Hero() {
               </span>
             </a>
             <a
-              href="/contact"
+              href="#contact"
               className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body hover:scale-125 transition-all duration-200"
             >
               <span className="bg-blue-500 px-2 py-1 rounded-md ml-10 opacity-0 text-white">
@@ -49,14 +49,17 @@ function Hero() {
           <h1 className="text-white font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
             Welcome!
           </h1>
-          <div className="w-full flex justify-center md:justify-start">
-            <button className="px-8 py-2 bg-blue-500 text-white font-bold mt-12 flex items-center space-x-3 max-h-12">
+          <Link
+            className="w-full flex justify-center md:justify-start"
+            href="/projects"
+          >
+            <button className="px-8 py-2 bg-blue-500 text-white font-bold mt-12 flex items-center space-x-3 max-h-12 hover:scale-110 transition-all 200ms">
               <div>
                 <HiOutlineEye className="w-8 h-8" />
               </div>
               <span>My work</span>
             </button>
-          </div>
+          </Link>
         </div>
         <Image
           src={Pfp}
