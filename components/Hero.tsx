@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { HiOutlineEye } from "react-icons/Hi";
-import Pfp from "../public/img/block.gif";
+import Pfp from "../public/img/linkedin.png";
 
 function Hero() {
   return (
