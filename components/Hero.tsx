@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { HiOutlineEye } from "react-icons/Hi";
+// import { HiOutlineEye } from "react-icons/Hi";
 import Pfp from "../public/img/linkedin.png";
 
 function Hero() {
@@ -54,10 +54,10 @@ function Hero() {
             href="/projects"
           >
             <button className="px-8 py-2 bg-blue-500 text-white font-bold mt-12 flex items-center space-x-3 max-h-12 hover:scale-110 transition-all 200ms">
-              <div>
+              {/* <div>
                 <HiOutlineEye className="w-8 h-8" />
-              </div>
-              <span>My work</span>
+              </div> */}
+              <span>View my work</span>
             </button>
           </Link>
         </div>
