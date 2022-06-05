@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { HiMenu } from "react-icons/Hi";
+// import { HiMenu } from "react-icons/Hi";
 
 function Navbar() {
   return (
@@ -31,9 +31,9 @@ function Navbar() {
             </button>
           </Link>
         </div>
-        <div className="md:hidden">
+        {/* <div className="md:hidden">
           <HiMenu className="w-full h-6" />
-        </div>
+        </div> */}
       </div>
     </header>
   );
