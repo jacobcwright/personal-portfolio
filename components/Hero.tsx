@@ -26,11 +26,16 @@ function Hero() {
             </button>
           </Link>
         </div>
+        {/* <div className="image-hover flex flex-row">
+          <span className="bg-blue-500 rounded-md opacity-0 text-white h-6 w-fit">
+            Hello!
+          </span> */}
         <Image
           src={Pfp}
           alt="selfie"
-          className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1"
+          className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1 hover:scale-105 transition-all 1000ms"
         />
+        {/* </div> */}
       </div>
     </div>
   );
