@@ -3,9 +3,9 @@ import React from "react";
 import ImageCard from "./ImageCard";
 import hawaiifamily from "../public/img/aesthetic.png";
 import camera from "../public/img/camera.jpg";
-import fortworth from "../public/img/fortworth.jpg";
-import eth from "../public/img/eth.jpg";
-import gon from "../public/img/gon.gif";
+// import fortworth from "../public/img/fortworth.jpg";
+// import eth from "../public/img/eth.jpg";
+// import gon from "../public/img/gon.gif";
 
 function About() {
   return (
@@ -29,9 +29,9 @@ function About() {
         <div className="flex flex-row flex-wrap justify-evenly h-fit w-full flex-grow ">
           <ImageCard url={hawaiifamily} altSrc="hawaii" />
           <ImageCard url={camera} altSrc="Photography" />
-          <ImageCard url={fortworth} altSrc="parents" />
-          <ImageCard url={eth} altSrc="Ethereum paintings" />
-          <ImageCard url={gon} altSrc="Gon from HxH" />
+          {/* <ImageCard url={fortworth} altSrc="parents" /> */}
+          {/* <ImageCard url={eth} altSrc="Ethereum paintings" /> */}
+          {/* <ImageCard url={gon} altSrc="Gon from HxH" /> */}
         </div>
       </div>
     </div>
