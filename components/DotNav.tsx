@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 
 const DotNav = () => {
   const [selected, useSelect] = useState("Home");
-  console.log(selected);
   return (
     <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage md:block hidden">
       <div className="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">

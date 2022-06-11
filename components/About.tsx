@@ -9,12 +9,12 @@ import gon from "../public/img/gon.gif";
 
 function About() {
   return (
-    <div className="bg-white md:px-14 lg:px-24 w-full h-screen mr-0  flex flex-col justify-between pt-12">
+    <div className="bg-white md:px-14 lg:px-24 w-full h-fit mr-0  flex flex-col justify-between p-12">
       <div>
-        <h1 className="text-[#293241] font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
+        <h1 className="text-blue-500 font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
           Hi, I'm Jacob Wright
         </h1>
-        <p id="about">
+        <p id="about" className="p-5">
           I'm a software engineer, currently working at GuideCX. My passion is
           doing and creating all that I can to improve my life and the lives of
           those around me. <br />
@@ -22,9 +22,11 @@ function About() {
           Sandbox 2022, a startup incubator program.
         </p>
       </div>
-      <div className="h-full w-full">
-        <h1>My life in photos</h1>
-        <div className="flex flex-row flex-wrap justify-evenly h-screen w-full flex-grow ">
+      <div className="h-full w-full pt-8">
+        <h1 className="text-[#293241] font-bold text-2xl md:text-3xl lg:text-4xl text-center md:text-left mb-6">
+          My life in photos
+        </h1>
+        <div className="flex flex-row flex-wrap justify-evenly h-fit w-full flex-grow ">
           <ImageCard url={hawaiifamily} altSrc="hawaii" />
           <ImageCard url={camera} altSrc="Photography" />
           <ImageCard url={fortworth} altSrc="parents" />
