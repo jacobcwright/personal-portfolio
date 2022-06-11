@@ -29,7 +29,7 @@ function ContactPage() {
             </div>
             <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-1/2 w-full rounded-lg group cursor-pointer items-center">
               <GrMail className="text-xl text-gray-500  group-hover:text-white" />
-              <p className="text-gray-500 text-base font-semibold group-hover:text-white">
+              <p className="text-gray-500 text-base font-semibold group-hover:text-white overflow-x-clip">
                 jacob.wright.ut@gmail.com
               </p>
             </div>
@@ -99,6 +99,11 @@ function ContactPage() {
             <button
               type="submit"
               className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              onClick={() => {
+                alert(
+                  "Thank you for your message!\n I will implement this as soon as possible"
+                );
+              }}
             >
               Send Message
             </button>

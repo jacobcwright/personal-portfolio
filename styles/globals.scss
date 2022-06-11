@@ -2,73 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @apply pb-12
+body {
+  @apply pb-12;
 }
 
-html, body {
-    scroll-behavior: smooth;
-    background:  #293241;
+html,
+body {
+  scroll-behavior: smooth;
+  background: #293241;
 }
 
 .left-50 {
-    left: 50%;
+  left: 50%;
 }
 
-.right-50{
-    right: 50%;
+.right-50 {
+  right: 50%;
 }
 
-.top-50{
-    top: 50%;
+.top-50 {
+  top: 50%;
 }
 
 .-z-10 {
-    z-index: -1;
+  z-index: -1;
 }
 
-.secondary-title{
-    @apply text-3xl font-bold;
+.secondary-title {
+  @apply text-3xl font-bold;
 }
 
-.secondary-title::before{
-    content: "";
-    @apply block w-12 h-2 bg-blue-500 rounded-full mb-1;
+.secondary-title::before {
+  content: "";
+  @apply block w-12 h-2 bg-blue-500 rounded-full mb-1;
 }
 
-.section-paragraph{
-    @apply bg-blue-500 my-6 w-full max-w-3xl;
+.section-paragraph {
+  @apply bg-blue-500 my-6 w-full max-w-3xl;
 }
 
-.badge{
-    @apply px-4 py-2 text-sm rounded bg-blue-500;
+.badge {
+  @apply px-4 py-2 text-sm rounded bg-blue-500;
 }
 
-[id]{
-    scroll-margin-top: 100px;
+[id] {
+  scroll-margin-top: 100px;
 }
 
-.left-percentage{
-    left: 5%;
+.left-percentage {
+  left: 5%;
 }
 
-.h-screen-partial{
-    height: 80vh;
+.h-screen-partial {
+  height: 80vh;
 }
 
-.nav-dot{
-    transition: background 200ms, border-color 200ms;
-    color: white;
+.nav-dot {
+  transition: background 200ms, border-color 200ms;
+  color: white;
 }
 
-.selected-circle{
-    @apply bg-blue-500 border-blue-200;
+.selected-circle {
+  @apply bg-blue-500 border-blue-200;
 }
 
 .nav-dot:hover span {
-    opacity: 1;
+  opacity: 1;
 }
 
-.image-hover:hover span{
-    opacity: 1;
+.image-hover:hover span {
+  opacity: 1;
 }
