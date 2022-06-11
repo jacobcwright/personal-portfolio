@@ -29,7 +29,7 @@ function ContactPage() {
             </div>
             <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-1/2 w-full rounded-lg group cursor-pointer items-center">
               <GrMail className="text-xl text-gray-500  group-hover:text-white" />
-              <p className="text-gray-500 text-base font-semibold group-hover:text-white">
+              <p className="text-gray-500 text-base font-semibold group-hover:text-white overflow-x-clip">
                 jacob.wright.ut@gmail.com
               </p>
             </div>
