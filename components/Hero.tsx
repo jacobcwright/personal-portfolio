@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-// import { HiOutlineEye } from "react-icons/Hi";
 import Pfp from "../public/img/linkedin.png";
 import DotNav from "./DotNav";
 
@@ -33,7 +32,7 @@ function Hero() {
         <Image
           src={Pfp}
           alt="selfie"
-          className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1 hover:scale-105 transition-all 1000ms"
+          className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1 hover:scale-105 transition-all 1000ms h-full"
         />
         {/* </div> */}
       </div>

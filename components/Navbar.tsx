@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <header className="py-6">
+    <header className="py-6 bg-[#293241]">
       <div className="text-white container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
         <Link href="#">
           <h2 className="text-xl">Jacob Wright</h2>
