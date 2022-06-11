@@ -68,7 +68,7 @@ function ContactPage() {
                 id="last_name"
                 className="form-control block w-full px-3 py-2 mb-5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 placeholder="Last Name "
-                required=""
+                required={true}
               />
             </div>
             <input
@@ -90,7 +90,7 @@ function ContactPage() {
               <textarea
                 className="form-control block w-full px-3 py-2 mb-5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 id="exampleFormControlTextarea1"
-                rows="3"
+                rows={3}
                 placeholder="Your message"
                 required={true}
               ></textarea>
