@@ -5,7 +5,7 @@ import jazzParents from "../public/img/jazzparents.png";
 import camera from "../public/img/camera.jpg";
 import fortworth from "../public/img/fortworth.png";
 import eth from "../public/img/eth.png";
-import gon from "../public/img/gon.gif";
+import gon from "../public/img/gonthumbs.gif";
 import lifting from "../public/img/lifting.png";
 
 function About() {
