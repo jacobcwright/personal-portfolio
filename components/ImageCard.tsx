@@ -4,6 +4,8 @@ import React from "react";
 type Props = {
   url: any;
   altSrc: string;
+  title?: string;
+  text?: string;
 };
 
 export default function ImageCard(image: Props) {
