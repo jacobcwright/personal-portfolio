@@ -2,13 +2,7 @@ import React from "react";
 import { BsTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import { HiLocationMarker } from "react-icons/hi";
-import {
-  FaInstagram,
-  FaTwitter,
-  FaYoutube,
-  FaPinterest,
-  FaGithub,
-} from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function ContactPage() {
   return (
@@ -44,8 +38,7 @@ function ContactPage() {
           <div className="flex gap-8  justify-center md:justify-start ">
             <FaInstagram className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
             <FaTwitter className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
-            <FaYoutube className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
-            <FaPinterest className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
+            <FaLinkedin className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
             <FaGithub className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
           </div>
         </div>

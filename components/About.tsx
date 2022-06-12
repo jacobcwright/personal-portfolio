@@ -28,12 +28,20 @@ function About() {
           My life in photos
         </h1>
         <div className="flex flex-row flex-wrap justify-evenly h-fit w-full flex-grow ">
-          <ImageCard url={jazzParents} altSrc="Jazz Game" />
-          <ImageCard url={camera} altSrc="Photography" />
-          <ImageCard url={fortworth} altSrc="parents" />
-          <ImageCard url={eth} altSrc="Ethereum paintings" />
-          <ImageCard url={gon} altSrc="Gon from HxH" />
-          <ImageCard url={lifting} altSrc="Lifting" />
+          <ImageCard
+            url={jazzParents}
+            altSrc="Jazz Game"
+            title="Utah Jazz Fan"
+          />
+          <ImageCard
+            url={camera}
+            altSrc="Photography"
+            title="Amateur Photographer"
+          />
+          <ImageCard url={fortworth} altSrc="parents" title="Traveling" />
+          <ImageCard url={eth} altSrc="Ethereum paintings" title="I ❤️ Tech" />
+          <ImageCard url={gon} altSrc="Gon from HxH" title="Anime" />
+          <ImageCard url={lifting} altSrc="Lifting" title="Weightlifting" />
         </div>
       </div>
     </div>
