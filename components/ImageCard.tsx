@@ -10,7 +10,7 @@ type Props = {
 
 export default function ImageCard(image: Props) {
   return (
-    <div className="max-w-sm rounded-2xl shadow-lg overflow-hidden my-3">
+    <div className="max-w-sm rounded-2xl shadow-lg overflow-hidden m-3">
       <Image
         className="w-16 h-16 max-h-40"
         src={image.url}
