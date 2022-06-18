@@ -7,7 +7,7 @@ import { FaInstagram, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 function ContactPage() {
   return (
     <div className="bg-[#293241] w-screen md:h-screen h-auto">
-      <div className="flex justify-around items-center mx-20 md:flex-row flex-col">
+      <div className="flex justify-around items-center mx-10 md:mx-20 md:flex-row flex-col">
         {/* textual content */}
         <div className="md:w-1/2 w-full md:p-10 my-10 md:my-0  flex-col">
           <h1 className="text-4xl font-semibold text-white ">Get In Touch</h1>
