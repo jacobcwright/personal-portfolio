@@ -32,16 +32,38 @@ function About() {
             url={jazzParents}
             altSrc="Jazz Game"
             title="Utah Jazz Fan"
+            text="I was born and raised as a Utah Jazz Fan! I love watching and playing basketball and many other sports."
           />
           <ImageCard
             url={camera}
             altSrc="Photography"
             title="Amateur Photographer"
+            text=""
           />
-          <ImageCard url={fortworth} altSrc="parents" title="Traveling" />
-          <ImageCard url={eth} altSrc="Ethereum paintings" title="I ❤️ Tech" />
-          <ImageCard url={gon} altSrc="Gon from HxH" title="Anime" />
-          <ImageCard url={lifting} altSrc="Lifting" title="Weightlifting" />
+          <ImageCard
+            url={fortworth}
+            altSrc="parents"
+            title="Traveling"
+            text=""
+          />
+          <ImageCard
+            url={eth}
+            altSrc="Ethereum paintings"
+            title="I ❤️ Tech"
+            text=""
+          />
+          <ImageCard
+            url={gon}
+            altSrc="Gon from HxH"
+            title="Anime"
+            text="Anime is super epic"
+          />
+          <ImageCard
+            url={lifting}
+            altSrc="Lifting"
+            title="Weightlifting"
+            text="Lifting weights became a way to maintain my physical health after I stopped avidly playing competitive sports in High School."
+          />
         </div>
       </div>
     </div>
