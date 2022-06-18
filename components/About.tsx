@@ -38,25 +38,25 @@ function About() {
             url={camera}
             altSrc="Photography"
             title="Amateur Photographer"
-            text=""
+            text="I have recently gotten into photography. I mainly shoot 35mm film, however, I do play with digital cameras a bit."
           />
           <ImageCard
             url={fortworth}
             altSrc="parents"
             title="Traveling"
-            text=""
+            text="Nothing is better than traveling experiencing new things with those you love."
           />
           <ImageCard
             url={eth}
             altSrc="Ethereum paintings"
             title="I ❤️ Tech"
-            text=""
+            text="I love any and all things technology. Especially Blockchain technology and artificial intelligence."
           />
           <ImageCard
             url={gon}
             altSrc="Gon from HxH"
             title="Anime"
-            text="Anime is super epic"
+            text="I grew up watching anime as my Saturday morning cartoons and have loved it ever since. My favorite anime is Hunter x Hunter."
           />
           <ImageCard
             url={lifting}
