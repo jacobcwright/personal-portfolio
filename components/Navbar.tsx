@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import { HiMenu } from "react-icons/Hi";
+import { HiMenu } from "react-icons/hi";
 
 function Navbar() {
   return (
@@ -32,7 +32,9 @@ function Navbar() {
           </Link>
         </div>
         <div className="md:hidden">
-          <h2 className="w-full h-6 text-white">Menu</h2>
+          <h2 className="w-full h-full text-white">
+            <HiMenu />
+          </h2>
         </div>
       </div>
     </header>
