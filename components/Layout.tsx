@@ -11,7 +11,6 @@ type Props = {
 };
 
 const Layout = ({ children, title }: Props) => {
-  const [selected, useSelect] = useState("Home");
   return (
     <>
       <Head>
