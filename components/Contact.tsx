@@ -3,6 +3,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import { HiLocationMarker } from "react-icons/hi";
 import { FaInstagram, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 function ContactPage() {
   return (
@@ -36,10 +37,15 @@ function ContactPage() {
           </div>
 
           <div className="flex gap-8  justify-center md:justify-start ">
-            <FaInstagram className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
-            <FaTwitter className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
-            <FaLinkedin className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
-            <FaGithub className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
+            <Link href="https://www.instagram.com/jacobwright.exe/" passHref>
+              <FaInstagram className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
+            </Link>
+            <Link href="https://www.linkedin.com/in/jacob-c-wright/" passHref>
+              <FaLinkedin className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
+            </Link>
+            <Link href="https://github.com/jacobcwright" passHref>
+              <FaGithub className="text-2xl text-white hover:text-blue-700 cursor-pointer" />
+            </Link>
           </div>
         </div>
         {/* Contact form */}
