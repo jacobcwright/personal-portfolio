@@ -6,12 +6,12 @@ function ComingSoon() {
       <div className="flex h-full w-full items-center justify-center container mx-auto px-8">
         <div className="max-w-2xl text-center">
           <h1 className="text-3xl sm:text-5xl capitalize tracking-widest text-white lg:text-7xl">
-            Comming Soon
+            Coming Soon
           </h1>
 
           <p className="mt-6 lg:text-lg text-white">
-            You can subscribe to our newsletter, and let you know when we are
-            back
+            You can subscribe to my newsletter, and I will let you know when we
+            are back
           </p>
 
           <div className="mt-8 flex flex-col space-y-3 sm:-mx-2 sm:flex-row sm:justify-center sm:space-y-0">

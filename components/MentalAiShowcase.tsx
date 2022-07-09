@@ -56,7 +56,7 @@ export default function ProjectShowCase() {
                 <img
                   src="/img/projects/coming-soon.jpg"
                   className="h-full w-full object-cover object-left-top"
-                  alt=""
+                  alt="Coming soon"
                 />
               </div>
             </div>
@@ -84,7 +84,7 @@ export default function ProjectShowCase() {
                 <img
                   src="/img/projects/coming-soon.jpg"
                   className="h-full w-full object-cover object-left-top"
-                  alt=""
+                  alt="Coming soon"
                 />
               </div>
             </div>
