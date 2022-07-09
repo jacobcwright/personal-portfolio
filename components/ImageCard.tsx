@@ -6,21 +6,27 @@ type Props = {
   altSrc: string;
   title?: string;
   text?: string;
+  cardStyles?: any;
+  textStyles?: any;
 };
 
 export default function ImageCard(image: Props) {
   return (
-    <div className="max-w-sm rounded-2xl shadow-lg overflow-hidden m-3">
+    // <div className="max-w-sm rounded-2xl shadow-lg overflow-hidden m-3">
+    <div className={image.cardStyles}>
       <Image
-        className="w-16 h-16 max-h-40"
         src={image.url}
         alt={image.altSrc}
-        height={600}
-        width={600}
+        className="w-full h-fit"
+        height={800}
+        width={800}
       />
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{image.title}</div>
-        <p className="text-gray-700 text-base">{image.text}</p>
+        <div className="font-bold text-xl mb-2 text-blue-500">
+          {image.title}
+        </div>
+        {/* <p className="text-blue-500 text-base">{image.text}</p> */}
+        <p className={image.textStyles}>{image.text}</p>
       </div>
     </div>
   );

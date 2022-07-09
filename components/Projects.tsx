@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectShowCase from "./ProjectShowCase";
+import MentalAI from "./MentalAiShowcase";
 
 function Projects() {
   return (
@@ -10,9 +10,7 @@ function Projects() {
       <h1 className="font-bold text-2xl md:text-3xl lg:text-4xl text-center md:text-left mb-6">
         Projects
       </h1>
-      {/* <ProjectShowCase direction={1} /> */}
-      {/* <ProjectShowCase direction={0} /> */}
-      <p>This page is under construction</p>
+      <MentalAI direction={1} />
     </div>
   );
 }

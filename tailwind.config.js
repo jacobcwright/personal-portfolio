@@ -1,14 +1,12 @@
 module.exports = {
-  content: [
-    "./pages/*",
-    "./components/*"
-  ],
+  content: ["./pages/*", "./components/*"],
   theme: {
     extend: {
       screens: {
-        'xs': '345px',
-      }
+        xs: "345px",
+      },
     },
   },
-  plugins: [],
+  // eslint-disable-next-line no-undef
+  plugins: [require("daisyui")],
 };

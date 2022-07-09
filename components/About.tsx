@@ -33,36 +33,42 @@ function About() {
             altSrc="Jazz Game"
             title="Utah Jazz Fan"
             text="I was born and raised as a Utah Jazz Fan! I love watching and playing basketball and many other sports."
+            cardStyles={"max-w-sm rounded-2xl shadow-lg overflow-hidden m-3"}
           />
           <ImageCard
             url={camera}
             altSrc="Photography"
             title="Amateur Photographer"
             text="I have recently gotten into photography. I mainly shoot 35mm film, however, I do play with digital cameras a bit."
+            cardStyles={"max-w-sm rounded-2xl shadow-lg overflow-hidden m-3"}
           />
           <ImageCard
             url={fortworth}
             altSrc="parents"
             title="Traveling"
             text="Nothing is better than traveling experiencing new things with those you love."
+            cardStyles={"max-w-sm rounded-2xl shadow-lg overflow-hidden m-3"}
           />
           <ImageCard
             url={eth}
             altSrc="Ethereum paintings"
             title="I ❤️ Tech"
             text="I love any and all things technology. Especially Blockchain technology and artificial intelligence."
+            cardStyles={"max-w-sm rounded-2xl shadow-lg overflow-hidden m-3"}
           />
           <ImageCard
             url={gon}
             altSrc="Gon from HxH"
             title="Anime"
             text="I grew up watching anime as my Saturday morning cartoons and have loved it ever since. My favorite anime is Hunter x Hunter."
+            cardStyles={"max-w-sm rounded-2xl shadow-lg overflow-hidden m-3"}
           />
           <ImageCard
             url={lifting}
             altSrc="Lifting"
             title="Weightlifting"
             text="Lifting weights became a way to maintain my physical health after I stopped avidly playing competitive sports in High School."
+            cardStyles={"max-w-sm rounded-2xl shadow-lg overflow-hidden m-3"}
           />
         </div>
       </div>
