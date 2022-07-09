@@ -10,8 +10,8 @@ import lifting from "../public/img/lifting.png";
 
 function About() {
   return (
-    <div className="bg-white md:px-14 lg:px-24 w-full h-fit mr-0  flex flex-col justify-between p-12">
-      <div>
+    <div className="bg-white md:px-14 lg:px-24 w-full h-fit mr-0 flex flex-col justify-between p-12">
+      <div className="md:ml-10">
         <h1 className="text-blue-500 font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
           Hi, I'm Jacob Wright
         </h1>
@@ -24,10 +24,10 @@ function About() {
         </p>
       </div>
       <div className="h-full w-full pt-8">
-        <h1 className="text-[#293241] font-bold text-2xl md:text-3xl lg:text-4xl text-center md:text-left mb-6">
+        <h1 className="text-[#293241] font-bold text-2xl md:text-3xl lg:text-4xl text-center md:text-left mb-6 md:ml-10">
           My life in photos
         </h1>
-        <div className="flex flex-row flex-wrap justify-evenly h-fit w-full flex-grow ">
+        <div className="flex flex-row flex-wrap justify-evenly h-fit w-full flex-grow md:ml-10">
           <ImageCard
             url={jazzParents}
             altSrc="Jazz Game"
