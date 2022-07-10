@@ -1,6 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
+import maiDesktop from "/img/projects/mai-desktop-light.png";
+import Image from "next/image";
+import comingSoon from "/img/projects/coming-soon.jpg";
 
 export default function ProjectShowCase() {
   return (
@@ -14,8 +17,8 @@ export default function ProjectShowCase() {
         <div className="container grid max-w-screen-xl gap-8 lg:grid-cols-2 lg:grid-rows-2">
           <div className="row-span-2 flex flex-col rounded-md border border-slate-200">
             <div className="h-1/2 flex-1">
-              <img
-                src="/img/projects/mai-desktop-light.png"
+              <Image
+                src={maiDesktop}
                 className="w-full object-cover object-right-top"
                 alt="mental-ai-desktop-light"
               />
@@ -53,8 +56,8 @@ export default function ProjectShowCase() {
 
             <div className="relative hidden h-full w-1/3 overflow-hidden lg:block">
               <div className="absolute inset-0">
-                <img
-                  src="/img/projects/coming-soon.jpg"
+                <Image
+                  src={comingSoon}
                   className="h-full w-full object-cover object-left-top"
                   alt="Coming soon"
                 />
@@ -81,8 +84,8 @@ export default function ProjectShowCase() {
 
             <div className="relative hidden h-full w-1/3 overflow-hidden lg:block">
               <div className="absolute inset-0">
-                <img
-                  src="/img/projects/coming-soon.jpg"
+                <Image
+                  src={comingSoon}
                   className="h-full w-full object-cover object-left-top"
                   alt="Coming soon"
                 />
