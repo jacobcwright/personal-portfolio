@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
-import maiDesktop from "/img/projects/mai-desktop-light.png";
+import maiDesktop from "../public/img/projects/mai-desktop-light.png";
 import Image from "next/image";
-import comingSoon from "/img/projects/coming-soon.jpg";
+import comingSoon from "../public/img/projects/coming-soon.jpg";
 
 export default function ProjectShowCase() {
   return (
