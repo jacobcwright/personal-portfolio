@@ -33,7 +33,10 @@ export default function ProjectShowCase() {
                 identify trends in your mental health and provide simple
                 solutions to improve your life.
               </p>
-              <a href="/coming-soon" className="mt-2 inline-flex text-blue-500">
+              <a
+                href="https://mental-ai.vercel.app/"
+                className="mt-2 inline-flex text-blue-500"
+              >
                 Read More →
               </a>
             </div>
