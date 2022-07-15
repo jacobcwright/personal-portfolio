@@ -74,9 +74,9 @@ const DotNav = () => {
                 <li>
                   <a href="#projects">Projects</a>
                 </li>
-                <li>
+                {/* <li className="z-50">
                   <a href="#contact">Contact</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
