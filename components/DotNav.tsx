@@ -66,7 +66,7 @@ const DotNav = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="dropdown-content menu p-2 bg-base-100 rounded-box w-fit h-fit"
+                className="dropdown-content menu p-2 border-white bg-inherit text-white rounded-box w-fit h-fit"
               >
                 <li>
                   <a href="#about">About</a>
