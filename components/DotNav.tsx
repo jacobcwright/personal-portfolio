@@ -3,7 +3,13 @@ import Link from "next/link";
 import { HiMenu } from "react-icons/hi";
 
 const DotNav = () => {
-  const [selected, useSelect] = useState("Home");
+  const [selected, setSelected] = useState("Home");
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const handleClick = () => {
+    console.log("Menu Open: ", mobileMenuOpen);
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
   return (
     <>
       <header className="py-6">
@@ -16,7 +22,7 @@ const DotNav = () => {
               <a
                 className="hover:scale-125 hover:text-blue-200 transition-all 200ms "
                 onClick={() => {
-                  useSelect("Home");
+                  setSelected("Home");
                 }}
               >
                 Home
@@ -26,7 +32,7 @@ const DotNav = () => {
               <a
                 className="hover:scale-125 hover:text-blue-200 transition-all 200ms "
                 onClick={() => {
-                  useSelect("About");
+                  setSelected("About");
                 }}
               >
                 About
@@ -36,7 +42,7 @@ const DotNav = () => {
               <a
                 className="hover:scale-125 hover:text-blue-200 transition-all 200ms "
                 onClick={() => {
-                  useSelect("Projects");
+                  setSelected("Projects");
                 }}
               >
                 Projects
@@ -46,17 +52,33 @@ const DotNav = () => {
               <button
                 className="px-6 py-2 bg-blue-500 font-bold hover:scale-110 hover:text-blue-200 transition-all 200ms "
                 onClick={() => {
-                  useSelect("Contact");
+                  setSelected("Contact");
                 }}
               >
                 Contact
               </button>
             </Link>
           </div>
-          <div className="md:hidden">
-            <h2 className="w-full h-full text-white">
-              <HiMenu />
-            </h2>
+          <div className="md:hidden" onClick={handleClick}>
+            <div className="dropdown z-50">
+              <label tabIndex={0} className="btn m-1">
+                <HiMenu />
+              </label>
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu p-2 bg-base-100 rounded-box w-fit h-fit"
+              >
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </header>
@@ -64,7 +86,7 @@ const DotNav = () => {
         <div className="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
           <a
             onClick={() => {
-              useSelect("Home");
+              setSelected("Home");
             }}
             id="navHome"
             href="#"
@@ -78,7 +100,7 @@ const DotNav = () => {
           </a>
           <a
             onClick={() => {
-              useSelect("About");
+              setSelected("About");
             }}
             id="navAbout"
             href="#about"
@@ -92,7 +114,7 @@ const DotNav = () => {
           </a>
           <a
             onClick={() => {
-              useSelect("Projects");
+              setSelected("Projects");
             }}
             id="navProjects"
             href="#projects"
@@ -106,7 +128,7 @@ const DotNav = () => {
           </a>
           <a
             onClick={() => {
-              useSelect("Contact");
+              setSelected("Contact");
             }}
             id="navContact"
             href="#contact"
