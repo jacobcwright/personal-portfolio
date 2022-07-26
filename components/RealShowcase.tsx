@@ -5,7 +5,7 @@ import maiDesktop from "../public/img/Projects/mai-desktop-light.png";
 import Image from "next/image";
 import comingSoon from "../public/img/Projects/coming-soon.jpg";
 
-export default function ProjectShowCase() {
+export default function RealProjectShowCase() {
   return (
     <div className="w-full h-full">
       <Link href="https://mental-ai.vercel.app/" passHref>
@@ -25,7 +25,7 @@ export default function ProjectShowCase() {
             </div>
             <div className="p-10">
               <h3 className="text-2xl font-medium text-blue-300">
-                Mental AI Landing Page
+                REAL Dating Landing Page
               </h3>
               <p className="mt-2 text-white-500">
                 Mental AI is a platform that uses artificial intelligence to

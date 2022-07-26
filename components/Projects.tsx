@@ -1,5 +1,6 @@
 import React from "react";
 import MentalAI from "./MentalAiShowcase";
+import RealProjectShowCase from "./RealShowcase";
 
 function Projects() {
   return (
@@ -11,6 +12,7 @@ function Projects() {
         Projects
       </h1>
       <MentalAI />
+      <RealProjectShowCase />
     </div>
   );
 }
