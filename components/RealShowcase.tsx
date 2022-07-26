@@ -28,7 +28,7 @@ export default function RealProjectShowCase() {
                 REAL Dating Landing Page
               </h3>
               <p className="mt-2 text-white-500">
-                The next generation of dating apps. Coming Soon
+                Landing Page for the next generation of dating apps. Coming Soon
               </p>
               <a href="#" className="mt-2 inline-flex text-blue-500">
                 Read More →
@@ -48,7 +48,7 @@ export default function RealProjectShowCase() {
                 REAL Dating Mobile App
               </h3>
               <p className="mt-2 text-white-500">
-                The next generation of dating apps. Coming Soon
+                Mobile App for the next generation of dating apps. Coming Soon
               </p>
               <a href="#" className="mt-2 inline-flex text-blue-500">
                 Read More →
