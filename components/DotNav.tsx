@@ -82,7 +82,7 @@ const DotNav = () => {
           </div>
         </div>
       </header>
-      <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage md:block hidden mt-12">
+      {/* <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage md:block hidden mt-12">
         <div className="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
           <a
             onClick={() => {
@@ -141,7 +141,7 @@ const DotNav = () => {
             </span>
           </a>
         </div>
-      </nav>
+      </nav> */}
     </>
   );
 };
