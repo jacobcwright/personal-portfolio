@@ -56,7 +56,7 @@ export default function RealProjectShowCase() {
               <p className="mt-2 text-white-500">
                 Available on iOS and Android. <br />
                 Real people. Real matches. Real dating. <br />
-                October 2022 Release.
+                September 2022 Release.
               </p>
               <a
                 href="https://real-dating.vercel.app/"
