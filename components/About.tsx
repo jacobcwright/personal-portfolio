@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
-import ImageCard from "./ImageCard";
-import jazzParents from "../public/img/jazzparents.png";
-import camera from "../public/img/camera.jpg";
-import fortworth from "../public/img/fortworth.png";
-import eth from "../public/img/eth.png";
-import gon from "../public/img/gonthumbs.gif";
-import lifting from "../public/img/lifting.png";
+import React from "react"
+import ImageCard from "./ImageCard"
+import jazzParents from "../public/img/jazzparents.png"
+import camera from "../public/img/camera.jpg"
+import fortworth from "../public/img/fortworth.png"
+import eth from "../public/img/eth.png"
+import gon from "../public/img/gonthumbs.gif"
+import lifting from "../public/img/lifting.png"
 
 function About() {
   return (
@@ -46,7 +46,7 @@ function About() {
             url={fortworth}
             altSrc="parents"
             title="Traveling"
-            text="Nothing is better than traveling experiencing new things with those you love."
+            text="Nothing is better than traveling and experiencing new things with those you love."
             cardStyles={"max-w-sm rounded-2xl shadow-lg overflow-hidden m-3"}
           />
           <ImageCard
@@ -73,7 +73,7 @@ function About() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default About;
+export default About
