@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
-import Link from "next/link";
-import maiDesktop from "../public/img/Projects/mai-desktop-light.png";
-import Image from "next/image";
-import comingSoon from "../public/img/Projects/coming-soon.jpg";
+import React from "react"
+import Link from "next/link"
+import maiDesktop from "../public/img/Projects/mai-desktop-light.png"
+import Image from "next/image"
+import comingSoon from "../public/img/Projects/coming-soon.jpg"
 
 export default function ProphesyAIShowcase() {
   return (
@@ -13,11 +13,11 @@ export default function ProphesyAIShowcase() {
           Prophesy AI
         </h1>
       </Link>
-      <div className="flex h-screen sm:p-10 items-start pt-5 flex-col sm:flex-row justify-evenly">
+      <div className="flex h-full sm:p-10 items-start pt-5 flex-col sm:flex-row justify-evenly">
         <div className="w-full sm:w-1/4 border-white ">
           <video autoPlay loop muted src="/demo3.mp4" />
         </div>
-        <div className="flex flex-col items-start w-1/3">
+        <div className="flex flex-col items-start md:w-1/3">
           <h1 className="text-3xl font-medium text-blue-300">
             Prophesy AI Web App
           </h1>
@@ -41,5 +41,5 @@ export default function ProphesyAIShowcase() {
         </div>
       </div>
     </div>
-  );
+  )
 }

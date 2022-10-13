@@ -9,7 +9,7 @@ import comingSoon from "../public/img/Projects/coming-soon.jpg"
 export default function RealProjectShowCase() {
   return (
     <div className="w-full h-full mt-12">
-      <Link href="https://mental-ai.vercel.app/" passHref>
+      <Link href="https://real-dating.vercel.app/" passHref>
         <h1 className="w-full text-6xl text-blue-500 flex justify-center hover:text-blue-300 hover:scale-110 ease-in-out transition-all hover:cursor-pointer underline">
           REAL Dating
         </h1>
