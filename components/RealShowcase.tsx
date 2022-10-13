@@ -42,11 +42,13 @@ export default function RealProjectShowCase() {
           </div>
 
           <div className="row-span-2 flex flex-row rounded-md border border-slate-200">
-            <div className="h-1/2 flex-1">
+            <div className="h-full">
               <Image
                 src={realApp}
                 className="w-full object-cover object-right-top"
                 alt="REAL-dating-landing-page"
+                height={900}
+                width={450}
               />
             </div>
             <div className="p-10">
