@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
-import Link from "next/link";
-import { HiMenu } from "react-icons/hi";
+import React, { useEffect, useState } from "react"
+import Link from "next/link"
+import { HiMenu } from "react-icons/hi"
 
 const DotNav = () => {
-  const [selected, setSelected] = useState("Home");
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [selected, setSelected] = useState("Home")
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const handleClick = () => {
-    console.log("Menu Open: ", mobileMenuOpen);
-    setMobileMenuOpen(!mobileMenuOpen);
-  };
+    console.log("Menu Open: ", mobileMenuOpen)
+    setMobileMenuOpen(!mobileMenuOpen)
+  }
 
   return (
     <>
@@ -22,7 +22,7 @@ const DotNav = () => {
               <a
                 className="hover:scale-125 hover:text-blue-200 transition-all 200ms "
                 onClick={() => {
-                  setSelected("Home");
+                  setSelected("Home")
                 }}
               >
                 Home
@@ -32,7 +32,7 @@ const DotNav = () => {
               <a
                 className="hover:scale-125 hover:text-blue-200 transition-all 200ms "
                 onClick={() => {
-                  setSelected("About");
+                  setSelected("About")
                 }}
               >
                 About
@@ -42,17 +42,22 @@ const DotNav = () => {
               <a
                 className="hover:scale-125 hover:text-blue-200 transition-all 200ms "
                 onClick={() => {
-                  setSelected("Projects");
+                  setSelected("Projects")
                 }}
               >
                 Projects
+              </a>
+            </Link>
+            <Link href="/coming-soon">
+              <a className="hover:scale-125 hover:text-blue-200 transition-all 200ms ">
+                Photos
               </a>
             </Link>
             <Link href="#contact">
               <button
                 className="px-6 py-2 bg-blue-500 font-bold hover:scale-110 hover:text-blue-200 transition-all 200ms "
                 onClick={() => {
-                  setSelected("Contact");
+                  setSelected("Contact")
                 }}
               >
                 Contact
@@ -143,7 +148,7 @@ const DotNav = () => {
         </div>
       </nav> */}
     </>
-  );
-};
+  )
+}
 
-export default DotNav;
+export default DotNav

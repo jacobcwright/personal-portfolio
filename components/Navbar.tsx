@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import { HiMenu } from "react-icons/hi";
+import React from "react"
+import Link from "next/link"
+import { HiMenu } from "react-icons/hi"
 
 function Navbar() {
   return (
@@ -30,6 +30,11 @@ function Navbar() {
               Contact
             </button>
           </Link>
+          <Link href="/photos">
+            <button className="px-6 py-2 bg-blue-500 font-bold hover:scale-110 hover:text-blue-200 transition-all 200ms ">
+              Photos
+            </button>
+          </Link>
         </div>
         <div className="md:hidden">
           <h2 className="w-full h-full text-white">
@@ -38,7 +43,7 @@ function Navbar() {
         </div>
       </div>
     </header>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar
