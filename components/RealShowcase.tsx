@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
-import Link from "next/link";
-import realLP from "../public/img/Projects/real-lp.png";
-import realApp from "../public/img/Projects/real-app.png";
-import Image from "next/image";
-import comingSoon from "../public/img/Projects/coming-soon.jpg";
+import React from "react"
+import Link from "next/link"
+import realLP from "../public/img/Projects/real-lp.png"
+import realApp from "../public/img/Projects/real-app.png"
+import Image from "next/image"
+import comingSoon from "../public/img/Projects/coming-soon.jpg"
 
 export default function RealProjectShowCase() {
   return (
@@ -56,7 +56,7 @@ export default function RealProjectShowCase() {
               <p className="mt-2 text-white-500">
                 Available on iOS and Android. <br />
                 Real people. Real matches. Real dating. <br />
-                September 2022 Release.
+                Currently in invite only beta with 100+ users signed up.
               </p>
               <a
                 href="https://real-dating.vercel.app/"
@@ -99,5 +99,5 @@ export default function RealProjectShowCase() {
         </div>
       </div>
     </div>
-  );
+  )
 }
