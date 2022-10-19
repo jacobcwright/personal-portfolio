@@ -19,7 +19,7 @@ export default function CoverAIShowcase() {
             Uses NLP to generate a personalized cover letter based on the user's
             resume and a job description.
           </p>
-          <p className="text-xl my-3">Click the title to give it a try!</p>
+          <video src="/cover.mov" autoPlay loop muted className="w-full" />
         </div>
       </div>
     </div>
