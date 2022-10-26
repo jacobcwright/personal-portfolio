@@ -3,7 +3,7 @@ import MentalAI from "./MentalAiShowcase"
 import RealProjectShowCase from "./RealShowcase"
 import ProphesyAIShowcase from "./ProphesyAIShowcase"
 import TokenizdShowcase from "./TokenizdShowcase"
-import CoverAIShowcase from "./CoverAIShowcase"
+import BrainiacShowcase from "./BrainiacShowcase"
 
 function Projects() {
   return (
@@ -14,7 +14,7 @@ function Projects() {
       </h1>
       <div id="projects">
         <ProphesyAIShowcase />
-        <CoverAIShowcase />
+        <BrainiacShowcase />
         <TokenizdShowcase />
         <RealProjectShowCase />
         {/* <MentalAI /> */}
