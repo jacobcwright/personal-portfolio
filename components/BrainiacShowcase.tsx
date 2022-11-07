@@ -19,7 +19,13 @@ export default function BrainiacShowcase() {
             Uses NLP to generate a personalized cover letter based on the user's
             resume and a job description.
           </p>
-          <video src="/cover.mov" autoPlay loop muted className="w-full" />
+          <video
+            src="/brainiac-demo.mp4"
+            autoPlay
+            loop
+            muted
+            className="w-full"
+          />
           <p className="text-xl my-3">
             <u>Coming soon...</u> Using NLP to generate a personalized resume,
             school essays, and more.

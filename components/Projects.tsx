@@ -13,8 +13,8 @@ function Projects() {
         <p className="text-sm">(Click on titles to view project)</p>
       </h1>
       <div id="projects">
-        <ProphesyAIShowcase />
         <BrainiacShowcase />
+        <ProphesyAIShowcase />
         <TokenizdShowcase />
         <RealProjectShowCase />
         {/* <MentalAI /> */}
