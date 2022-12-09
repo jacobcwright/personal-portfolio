@@ -29,15 +29,6 @@ export default function ProphesyAIShowcase() {
             Built and launched MVP in 6 days and signed first paying customer 1
             day later
           </p>
-          <h1 className="text-3xl font-medium text-blue-300">Coming soon...</h1>
-          <h2 className="text-xl my-6">
-            <u>Visual Trend Prediction:</u> Predict visual/video content trends
-            on Instagram & Tiktok
-          </h2>
-          <h2 className="text-xl my-6">
-            <u>Market Landscape Analysis:</u> Identify users standing within the
-            market in relation to their competitors
-          </h2>
         </div>
       </div>
     </div>
