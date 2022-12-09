@@ -16,8 +16,8 @@ export default function TokenizdShowcase() {
             Tokenizd Web App
           </h1>
           <p className="text-xl my-3">
-            Self service web app for businesses to plan, execute, and manage
-            their tokenization strategy using NFTs.
+            Agency to help creators and brands tokenize their products and
+            distribute NFTs.
           </p>
           <p className="text-xl my-3">
             Built and launched MVP in 3 days and signed first paying customer 2
