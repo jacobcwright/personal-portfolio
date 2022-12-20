@@ -1,8 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-import Pfp from "../public/img/linkedin.png";
-import DotNav from "./DotNav";
+import Image from "next/image"
+import Link from "next/link"
+import React from "react"
+import Pfp from "../public/img/linkedin.png"
+import DotNav from "./DotNav"
 
 function Hero() {
   return (
@@ -12,14 +12,16 @@ function Hero() {
           <h1 className="text-white font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left z-0">
             Welcome!
           </h1>
-          <Link
+          <a
             className="w-full flex justify-center md:justify-start"
-            href="#projects"
+            href="/Jacob-Wright.pdf"
+            download="/Jacob-Wright.pdf"
+            target="_blank"
           >
             <button className="px-8 py-2 bg-blue-500 text-white font-bold mt-12 flex items-center space-x-3 max-h-12 hover:scale-110 transition-all 200ms">
-              <span>View my work</span>
+              <span>View Resume</span>
             </button>
-          </Link>
+          </a>
         </div>
         <Image
           src={Pfp}
@@ -28,7 +30,7 @@ function Hero() {
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default Hero;
+export default Hero

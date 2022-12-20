@@ -48,11 +48,15 @@ const DotNav = () => {
                 Projects
               </a>
             </Link>
-            <Link href="/coming-soon">
+            <a
+              href="/Jacob-Wright.pdf"
+              download="/Jacob-Wright.pdf"
+              target="_blank"
+            >
               <a className="hover:scale-125 hover:text-blue-200 transition-all 200ms ">
-                Photos
+                Resume
               </a>
-            </Link>
+            </a>
             <Link href="#contact">
               <button
                 className="px-6 py-2 bg-blue-500 font-bold hover:scale-110 hover:text-blue-200 transition-all 200ms "

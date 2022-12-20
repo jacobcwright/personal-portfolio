@@ -30,9 +30,9 @@ function Navbar() {
               Contact
             </button>
           </Link>
-          <Link href="/photos">
+          <Link href="/Jacob-Wright.pdf" download="Jacob-Wright.pdf">
             <button className="px-6 py-2 bg-blue-500 font-bold hover:scale-110 hover:text-blue-200 transition-all 200ms ">
-              Photos
+              Resume
             </button>
           </Link>
         </div>
