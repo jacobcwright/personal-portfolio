@@ -31,7 +31,7 @@ const workItems: WorkItem[] = [
   },
   {
     name: "Life Help",
-    description: "Mental health platform adopted nationwide.",
+    description: "Founding engineer. Built GTM infrastructure and full-stack tools for 100+ locations — now implemented worldwide as the LDS Church's Meetinghouse Locator.",
   },
 ];
 
