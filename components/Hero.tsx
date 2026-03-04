@@ -1,36 +1,30 @@
-import Image from "next/image"
-import Link from "next/link"
-import React from "react"
-import Pfp from "../public/img/linkedin.png"
-import DotNav from "./DotNav"
+const socials = [
+  { href: "https://github.com/jacobcwright", label: "GitHub" },
+  { href: "https://x.com/jehovahscript", label: "X (@jehovahscript)" },
+  { href: "https://www.linkedin.com/in/jacob-c-wright/", label: "LinkedIn" },
+];
 
-function Hero() {
+export default function Hero() {
   return (
-    <div className="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full h-3/4 z-1">
-      <div className="flex flex-wrap md:flex-nowrap h-full w-full">
-        <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
-          <h1 className="text-white font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left z-0">
-            Welcome!
-          </h1>
-          <a
-            className="w-full flex justify-center md:justify-start"
-            href="/Jacob-Wright.pdf"
-            download="/Jacob-Wright.pdf"
-            target="_blank"
-          >
-            <button className="px-8 py-2 bg-blue-500 text-white font-bold mt-12 flex items-center space-x-3 max-h-12 hover:scale-110 transition-all 200ms">
-              <span>View Resume</span>
-            </button>
-          </a>
-        </div>
-        <Image
-          src={Pfp}
-          alt="selfie"
-          className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1 hover:scale-105 transition-all 1000ms h-full"
-        />
-      </div>
-    </div>
-  )
+    <section id="top" className="scroll-mt-24 border-b border-white/10 py-20 sm:py-28">
+      <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Jacob Wright</h1>
+      <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-300 sm:text-xl">
+        Founder &amp; builder. Currently building Castari (YC).
+      </p>
+      <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-zinc-400">
+        {socials.map((social) => (
+          <li key={social.href}>
+            <a
+              href={social.href}
+              target="_blank"
+              rel="noreferrer"
+              className="transition-colors duration-200 hover:text-white"
+            >
+              {social.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
 }
-
-export default Hero
