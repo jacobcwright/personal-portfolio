@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Jacob Wright",
-  description: "Founder & builder. Currently building Castari (YC).",
+  description: "Builder. I make things with AI.",
 };
 
 export default function RootLayout({
@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-[#0a0a0a]">
-      <body className={`${inter.className} bg-[#0a0a0a] text-zinc-100 antialiased`}>{children}</body>
+    <html lang="en" className="bg-white">
+      <body className={`${inter.className} bg-white text-zinc-900 antialiased`}>{children}</body>
     </html>
   );
 }

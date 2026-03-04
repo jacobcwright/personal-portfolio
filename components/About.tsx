@@ -1,15 +1,23 @@
 export default function About() {
   return (
-    <section id="about" className="scroll-mt-24 border-b border-white/10 py-16 sm:py-20" aria-labelledby="about-title">
-      <h2 id="about-title" className="text-2xl font-semibold tracking-tight text-white">
+    <section id="about" className="scroll-mt-24 border-b border-zinc-100 py-14 sm:py-16" aria-labelledby="about-title">
+      <h2 id="about-title" className="text-lg font-semibold text-zinc-900">
         About
       </h2>
-      <p className="mt-6 max-w-3xl text-base leading-8 text-zinc-300 sm:text-lg">
-        I build AI infrastructure and products. Currently founder of Castari (YC W25), where we build hosting
-        infrastructure for AI agents. Previously I scaled AI systems at RunPod ($100M+ revenue), co-founded Proxy
-        ($1M ARR year one), and built Sister to 2M+ users. I also serve as a Venture Partner at Contrary Capital and
-        was an HF0 Fellow.
-      </p>
+      <div className="mt-4 max-w-2xl space-y-4 text-base leading-7 text-zinc-600">
+        <p>
+          I&apos;m a builder and founder based in Utah. Right now I&apos;m working on{" "}
+          <a href="https://castari.com" target="_blank" rel="noreferrer" className="text-zinc-900 underline decoration-zinc-300 underline-offset-2 hover:decoration-zinc-900">
+            Castari
+          </a>{" "}
+          — hosting infrastructure for AI agents.
+        </p>
+        <p>
+          Before that I built and shipped AI products at RunPod, co-founded a
+          couple startups, and made an AI beauty app that got to a couple million
+          users. I also invest and advise through Contrary.
+        </p>
+      </div>
     </section>
   );
 }

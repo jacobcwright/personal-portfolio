@@ -9,13 +9,15 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="mx-auto w-full max-w-4xl px-6 sm:px-8">
+      <main className="mx-auto w-full max-w-3xl px-6 sm:px-8">
         <Hero />
         <About />
         <Work />
         <Contact />
-        <Footer />
       </main>
+      <footer className="mx-auto w-full max-w-3xl px-6 sm:px-8">
+        <Footer />
+      </footer>
     </>
   );
 }

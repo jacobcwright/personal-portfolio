@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="py-10">
-      <p className="text-sm text-zinc-500">© 2026 Jacob Wright</p>
+    <footer className="border-t border-zinc-100 py-8">
+      <p className="text-sm text-zinc-400">© 2026 Jacob Wright</p>
     </footer>
   );
 }
