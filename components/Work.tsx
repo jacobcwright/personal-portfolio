@@ -7,7 +7,7 @@ type WorkItem = {
 const workItems: WorkItem[] = [
   {
     name: "Castari",
-    description: "Hosting infrastructure for AI agents. One command to deploy.",
+    description: "Hosting infrastructure for AI agents. YC F25.",
     href: "https://castari.com",
   },
   {

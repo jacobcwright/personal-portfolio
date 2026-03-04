@@ -15,7 +15,7 @@ export default function About() {
         <p>
           Before that I built and shipped AI products at RunPod, co-founded a
           couple startups, and made an AI beauty app that got to a couple million
-          users. I also invest and advise through Contrary.
+          users.
         </p>
       </div>
     </section>

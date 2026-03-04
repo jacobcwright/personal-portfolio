@@ -11,7 +11,7 @@ export default function Hero() {
         Jacob Wright
       </h1>
       <p className="mt-4 max-w-xl text-lg leading-relaxed text-zinc-500">
-        I like building things, mostly with AI.
+        I like building things.
       </p>
       <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-zinc-400">
         {socials.map((social) => (
