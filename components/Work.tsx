@@ -18,7 +18,7 @@ const workItems: WorkItem[] = [
   {
     name: "Sister",
     description: "AI beauty assistant. Grew to 2M+ users.",
-    href: "https://trysister.com",
+    href: "https://apps.apple.com/us/app/sister-glow-up/id6502375076",
   },
   {
     name: "RunPod",
