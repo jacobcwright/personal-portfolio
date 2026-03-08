@@ -26,6 +26,11 @@ const workItems: WorkItem[] = [
     href: "https://runpod.io",
   },
   {
+    name: "JustBuild",
+    description: "Community connecting Silicon Valley to Silicon Slopes. Making Utah AI-native.",
+    href: "https://justbuild.ing",
+  },
+  {
     name: "Proxy",
     description: "AI startup. Built the product from zero to revenue.",
   },
