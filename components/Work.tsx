@@ -27,7 +27,7 @@ const workItems: WorkItem[] = [
   },
   {
     name: "JustBuild",
-    description: "Community connecting Silicon Valley to Silicon Slopes. Making Utah AI-native.",
+    description: "Utah's largest community of engineers. Hosting monthly hackathons.",
     href: "https://justbuild.ing",
   },
   {
